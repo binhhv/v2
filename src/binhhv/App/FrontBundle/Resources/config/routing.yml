@@ -1,0 +1,3 @@
+landing_page_front:
+    path:     /
+    defaults: { _controller: AppFrontBundle:Default:index }

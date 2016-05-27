@@ -1,0 +1,4 @@
+services:
+#    common_carousel.example:
+#        class: binhhv\Common\CarouselBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

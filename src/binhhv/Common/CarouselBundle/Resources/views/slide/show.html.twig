@@ -1,0 +1,56 @@
+{% extends '@AppBack/Default/index.html.twig' %}
+
+{% block content %}
+    <h1>Slide</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ slide.id }}</td>
+            </tr>
+            <tr>
+                <th>Image</th>
+                <td>{{ slide.imageFile }}</td>
+            </tr>
+            <tr>
+                <th>Texth2</th>
+                <td>{{ slide.textH2 }}</td>
+            </tr>
+            <tr>
+                <th>Texth4</th>
+                <td>{{ slide.textH4 }}</td>
+            </tr>
+            <tr>
+                <th>Link</th>
+                <td>{{ slide.link }}</td>
+            </tr>
+            <tr>
+                <th>Enabled</th>
+                <td>{% if slide.enabled %}Yes{% else %}No{% endif %}</td>
+            </tr>
+            <tr>
+                <th>Startdate</th>
+                <td>{{ slide.startDate|date('d-m-Y') }}</td>
+            </tr>
+            <tr>
+                <th>Enddate</th>
+                <td>{{ slide.endDate|date('d-m-Y') }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('admin_slide_index') }}">Back to the list</a>
+        </li>
+        <li>
+            <a href="{{ path('admin_slide_edit', { 'id': slide.id }) }}">Edit</a>
+        </li>
+        <li>
+            {{ form_start(delete_form) }}
+                <input type="submit" value="Delete">
+            {{ form_end(delete_form) }}
+        </li>
+    </ul>
+{% endblock %}

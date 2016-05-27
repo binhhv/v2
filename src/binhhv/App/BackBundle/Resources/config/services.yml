@@ -1,0 +1,4 @@
+services:
+#    app_back.example:
+#        class: binhhv\App\BackBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

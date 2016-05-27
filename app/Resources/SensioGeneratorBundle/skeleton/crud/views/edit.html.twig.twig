@@ -1,0 +1,23 @@
+{% block extends %}
+{{ "{% extends '@AppBack/Default/index.html.twig' %}" }}
+{% endblock extends %}
+
+{% block body %}
+{{ "{% block content %}" }}
+	<div class="col-sm-8 col-md-8 col-xs-8">
+		<div class="x_title">
+    		<h2>{{ entity }} edit</h2>
+    		<div class="clearfix"></div>
+    	</div>
+    	<div class="x_content">
+    		<div class="dashboard-widget-content">
+		    {{ '{{ form_start(edit_form) }}' }}
+		        {{ '{{ form_widget(edit_form) }}' }}
+		        <input type="submit" value="Edit"  class="btn btn-success"/>
+		        <a href="{{ "{{ path('" ~ route_name_prefix ~ "_index') }}" }}" class="btn btn-default">Back to list</a>
+		    {{ '{{ form_end(edit_form) }}' }}
+		    </div>
+    	</div>
+    </div>
+{{ "{% endblock %}" }}
+{% endblock body %}

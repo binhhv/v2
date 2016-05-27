@@ -1,0 +1,51 @@
+{% extends '@AppBack/Default/index.html.twig' %}
+
+{% block content %}
+    <h1>Slide list</h1>
+
+    <table class="table table-striped responsive-utilities jambo_table bulk_action">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Image</th>
+                <th>Texth2</th>
+                <th>Texth4</th>
+                <th>Link</th>
+                <th>Enabled</th>
+                <th>Startdate</th>
+                <th>Enddate</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for slide in slides %}
+            <tr>
+                <td><a href="{{ path('admin_slide_show', { 'id': slide.id }) }}">{{ slide.id }}</a></td>
+                <td><img src="{{ asset('images/slides/' ~ slide.imageName)}}" class="img-responsive" width="50" ></td>
+                <td>{{ slide.textH2 }}</td>
+                <td>{{ slide.textH4 }}</td>
+                <td>{{ slide.link }}</td>
+                <td>{% if slide.enabled %}Yes{% else %}No{% endif %}</td>
+                <td>{{ slide.startDate|date('d-m-Y') }}</td>
+                <td>{{ slide.endDate|date('d-m-Y') }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('admin_slide_show', { 'id': slide.id }) }}">show</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('admin_slide_edit', { 'id': slide.id }) }}">edit</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('admin_slide_new') }}">Create a new entry</a>
+        </li>
+    </ul>
+{% endblock %}

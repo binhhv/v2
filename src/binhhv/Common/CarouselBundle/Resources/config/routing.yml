@@ -1,0 +1,7 @@
+common_carousel_admin_slide:
+    resource: "@CommonCarouselBundle/Resources/config/routing/slide.yml"
+    prefix:   /admin/slide
+
+common_carousel_homepage:
+    path:     /getSlides
+    defaults: { _controller: CommonCarouselBundle:Default:index }
