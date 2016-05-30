@@ -1,1 +1,21 @@
-hello
+
+<div class="slider-area">
+        	<!-- Slider -->
+			<div class="block-slider block-slider4">
+				<ul class="" id="bxslider-home4">
+				{% for slide in slides %}
+					<li>
+						<img src="{{ asset('images/slides/' ~ slide.imageName) }}" alt="Slide" style="max-width: 500px;">
+						<div class="caption-group">
+							<h2 class="caption title">
+								{{slide.textH2}}
+							</h2>
+							<h4 class="caption subtitle">{{slide.textH4}}</h4>
+							<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
+						</div>
+					</li>
+				{% endfor %}
+				</ul>
+			</div>
+			<!-- ./Slider -->
+    </div> <!-- End slider area -->
