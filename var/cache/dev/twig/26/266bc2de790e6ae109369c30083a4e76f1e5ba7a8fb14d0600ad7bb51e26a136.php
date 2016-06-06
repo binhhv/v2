@@ -15,8 +15,8 @@ class __TwigTemplate_85501c54e5a4a1f5fe0dfe2f841c9e41919366a8a2cd35e0a0553a70452
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_4f3aa4d75e8aaa2c9037d672660ad37e2034ab97ea8930aced5055667f8574f6 = $this->env->getExtension("native_profiler");
-        $__internal_4f3aa4d75e8aaa2c9037d672660ad37e2034ab97ea8930aced5055667f8574f6->enter($__internal_4f3aa4d75e8aaa2c9037d672660ad37e2034ab97ea8930aced5055667f8574f6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@CoreTheme/ustora/includes/promo.html.twig"));
+        $__internal_5a89d516c0480b004d1f3b4c589378861dcff85e9d2c208f35b7b204ecd3d5ab = $this->env->getExtension("native_profiler");
+        $__internal_5a89d516c0480b004d1f3b4c589378861dcff85e9d2c208f35b7b204ecd3d5ab->enter($__internal_5a89d516c0480b004d1f3b4c589378861dcff85e9d2c208f35b7b204ecd3d5ab_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@CoreTheme/ustora/includes/promo.html.twig"));
 
         // line 1
         echo "<div class=\"promo-area\">
@@ -51,7 +51,7 @@ class __TwigTemplate_85501c54e5a4a1f5fe0dfe2f841c9e41919366a8a2cd35e0a0553a70452
         </div>
     </div> <!-- End promo area -->";
         
-        $__internal_4f3aa4d75e8aaa2c9037d672660ad37e2034ab97ea8930aced5055667f8574f6->leave($__internal_4f3aa4d75e8aaa2c9037d672660ad37e2034ab97ea8930aced5055667f8574f6_prof);
+        $__internal_5a89d516c0480b004d1f3b4c589378861dcff85e9d2c208f35b7b204ecd3d5ab->leave($__internal_5a89d516c0480b004d1f3b4c589378861dcff85e9d2c208f35b7b204ecd3d5ab_prof);
 
     }
 

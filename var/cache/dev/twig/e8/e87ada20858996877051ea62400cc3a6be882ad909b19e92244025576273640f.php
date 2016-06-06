@@ -17,8 +17,8 @@ class __TwigTemplate_adbe9f03b7420daf96ecac71d62e0c9bfae4f19ce6af5096e4bc9ee13a5
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_5395afccd532c3dc6ea330937a4d87cf84eed6c4dc1cf4d03a52a3cec2c1c975 = $this->env->getExtension("native_profiler");
-        $__internal_5395afccd532c3dc6ea330937a4d87cf84eed6c4dc1cf4d03a52a3cec2c1c975->enter($__internal_5395afccd532c3dc6ea330937a4d87cf84eed6c4dc1cf4d03a52a3cec2c1c975_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CoreThemeBundle:ustora:layout.html.twig"));
+        $__internal_e538d244c2ba2c4e63fdacb8c4fdd120055365a855c0ec5e271e0d235d645076 = $this->env->getExtension("native_profiler");
+        $__internal_e538d244c2ba2c4e63fdacb8c4fdd120055365a855c0ec5e271e0d235d645076->enter($__internal_e538d244c2ba2c4e63fdacb8c4fdd120055365a855c0ec5e271e0d235d645076_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CoreThemeBundle:ustora:layout.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -228,32 +228,32 @@ class __TwigTemplate_adbe9f03b7420daf96ecac71d62e0c9bfae4f19ce6af5096e4bc9ee13a5
   </body>
 </html>";
         
-        $__internal_5395afccd532c3dc6ea330937a4d87cf84eed6c4dc1cf4d03a52a3cec2c1c975->leave($__internal_5395afccd532c3dc6ea330937a4d87cf84eed6c4dc1cf4d03a52a3cec2c1c975_prof);
+        $__internal_e538d244c2ba2c4e63fdacb8c4fdd120055365a855c0ec5e271e0d235d645076->leave($__internal_e538d244c2ba2c4e63fdacb8c4fdd120055365a855c0ec5e271e0d235d645076_prof);
 
     }
 
     // line 7
     public function block_title($context, array $blocks = array())
     {
-        $__internal_fba2b096013ad042fdf8493c08d423fc995f1f34fca745db68ddb038515ddd1a = $this->env->getExtension("native_profiler");
-        $__internal_fba2b096013ad042fdf8493c08d423fc995f1f34fca745db68ddb038515ddd1a->enter($__internal_fba2b096013ad042fdf8493c08d423fc995f1f34fca745db68ddb038515ddd1a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_2729762a9bff33c888f98f64f3406a22dc3cd894921e95c0ed398a0ac67810dd = $this->env->getExtension("native_profiler");
+        $__internal_2729762a9bff33c888f98f64f3406a22dc3cd894921e95c0ed398a0ac67810dd->enter($__internal_2729762a9bff33c888f98f64f3406a22dc3cd894921e95c0ed398a0ac67810dd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo " Home ";
         
-        $__internal_fba2b096013ad042fdf8493c08d423fc995f1f34fca745db68ddb038515ddd1a->leave($__internal_fba2b096013ad042fdf8493c08d423fc995f1f34fca745db68ddb038515ddd1a_prof);
+        $__internal_2729762a9bff33c888f98f64f3406a22dc3cd894921e95c0ed398a0ac67810dd->leave($__internal_2729762a9bff33c888f98f64f3406a22dc3cd894921e95c0ed398a0ac67810dd_prof);
 
     }
 
     // line 43
     public function block_content($context, array $blocks = array())
     {
-        $__internal_4d63fd5a12a8424adcf9f621da116ee3e89f21f1a77626ea2287c04cee218b39 = $this->env->getExtension("native_profiler");
-        $__internal_4d63fd5a12a8424adcf9f621da116ee3e89f21f1a77626ea2287c04cee218b39->enter($__internal_4d63fd5a12a8424adcf9f621da116ee3e89f21f1a77626ea2287c04cee218b39_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_fc29f2c0a36f8c6e0323cdb324eb1cafa529a96867b66c086fcc7278bdbeaf06 = $this->env->getExtension("native_profiler");
+        $__internal_fc29f2c0a36f8c6e0323cdb324eb1cafa529a96867b66c086fcc7278bdbeaf06->enter($__internal_fc29f2c0a36f8c6e0323cdb324eb1cafa529a96867b66c086fcc7278bdbeaf06_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 44
         echo "    ";
         
-        $__internal_4d63fd5a12a8424adcf9f621da116ee3e89f21f1a77626ea2287c04cee218b39->leave($__internal_4d63fd5a12a8424adcf9f621da116ee3e89f21f1a77626ea2287c04cee218b39_prof);
+        $__internal_fc29f2c0a36f8c6e0323cdb324eb1cafa529a96867b66c086fcc7278bdbeaf06->leave($__internal_fc29f2c0a36f8c6e0323cdb324eb1cafa529a96867b66c086fcc7278bdbeaf06_prof);
 
     }
 

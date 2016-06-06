@@ -15,8 +15,8 @@ class __TwigTemplate_bfe41c823bd0a6a173a4271da0930a55223d40ff41d8b82c3c5097f49d8
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_91707cc6c466a9001d4b2dacf43d22f6c6e75e23a5801fac70765a9f495d09fe = $this->env->getExtension("native_profiler");
-        $__internal_91707cc6c466a9001d4b2dacf43d22f6c6e75e23a5801fac70765a9f495d09fe->enter($__internal_91707cc6c466a9001d4b2dacf43d22f6c6e75e23a5801fac70765a9f495d09fe_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@CoreTheme/ustora/includes/menu.html.twig"));
+        $__internal_521d660b0840de5d9e994a22b9530ec0d72fe43cf22ef8dc9302203e0137b824 = $this->env->getExtension("native_profiler");
+        $__internal_521d660b0840de5d9e994a22b9530ec0d72fe43cf22ef8dc9302203e0137b824->enter($__internal_521d660b0840de5d9e994a22b9530ec0d72fe43cf22ef8dc9302203e0137b824_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@CoreTheme/ustora/includes/menu.html.twig"));
 
         // line 1
         echo "<div class=\"mainmenu-area\">
@@ -46,7 +46,7 @@ class __TwigTemplate_bfe41c823bd0a6a173a4271da0930a55223d40ff41d8b82c3c5097f49d8
         </div>
     </div> <!-- End mainmenu area -->";
         
-        $__internal_91707cc6c466a9001d4b2dacf43d22f6c6e75e23a5801fac70765a9f495d09fe->leave($__internal_91707cc6c466a9001d4b2dacf43d22f6c6e75e23a5801fac70765a9f495d09fe_prof);
+        $__internal_521d660b0840de5d9e994a22b9530ec0d72fe43cf22ef8dc9302203e0137b824->leave($__internal_521d660b0840de5d9e994a22b9530ec0d72fe43cf22ef8dc9302203e0137b824_prof);
 
     }
 

@@ -15,8 +15,8 @@ class __TwigTemplate_54386368a9346409a6728fe6ef376605f42cdf051a3eb67fedc7709cca5
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_700dcfb69bfeb254a97a0d6097341ae99af2144dbd0af4b7d79172c3ec2e9f6b = $this->env->getExtension("native_profiler");
-        $__internal_700dcfb69bfeb254a97a0d6097341ae99af2144dbd0af4b7d79172c3ec2e9f6b->enter($__internal_700dcfb69bfeb254a97a0d6097341ae99af2144dbd0af4b7d79172c3ec2e9f6b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@CoreTheme/ustora/includes/brand.html.twig"));
+        $__internal_fd7e1c59639a01968c59ca7bc7c5011eee45e22e40474571d10583432bb761f0 = $this->env->getExtension("native_profiler");
+        $__internal_fd7e1c59639a01968c59ca7bc7c5011eee45e22e40474571d10583432bb761f0->enter($__internal_fd7e1c59639a01968c59ca7bc7c5011eee45e22e40474571d10583432bb761f0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@CoreTheme/ustora/includes/brand.html.twig"));
 
         // line 1
         echo "<div class=\"brands-area\">
@@ -65,7 +65,7 @@ class __TwigTemplate_54386368a9346409a6728fe6ef376605f42cdf051a3eb67fedc7709cca5
         </div>
     </div> <!-- End brands area -->";
         
-        $__internal_700dcfb69bfeb254a97a0d6097341ae99af2144dbd0af4b7d79172c3ec2e9f6b->leave($__internal_700dcfb69bfeb254a97a0d6097341ae99af2144dbd0af4b7d79172c3ec2e9f6b_prof);
+        $__internal_fd7e1c59639a01968c59ca7bc7c5011eee45e22e40474571d10583432bb761f0->leave($__internal_fd7e1c59639a01968c59ca7bc7c5011eee45e22e40474571d10583432bb761f0_prof);
 
     }
 

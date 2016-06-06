@@ -15,8 +15,8 @@ class __TwigTemplate_a536440c5241aeaa7fe2133919d5686d479c7e9166f825ef11ac30eb926
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_1de08220011d1cae6d8055321a3bf7cd3db6b775fa25205f24ea6de073864eb3 = $this->env->getExtension("native_profiler");
-        $__internal_1de08220011d1cae6d8055321a3bf7cd3db6b775fa25205f24ea6de073864eb3->enter($__internal_1de08220011d1cae6d8055321a3bf7cd3db6b775fa25205f24ea6de073864eb3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@CoreTheme/ustora/includes/header.html.twig"));
+        $__internal_224ef483e631449a7f3f9ffb4e2b29c2ff0db4f75b41d7584e275e9fad110f02 = $this->env->getExtension("native_profiler");
+        $__internal_224ef483e631449a7f3f9ffb4e2b29c2ff0db4f75b41d7584e275e9fad110f02->enter($__internal_224ef483e631449a7f3f9ffb4e2b29c2ff0db4f75b41d7584e275e9fad110f02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@CoreTheme/ustora/includes/header.html.twig"));
 
         // line 1
         echo "<div class=\"header-area\">
@@ -61,7 +61,7 @@ class __TwigTemplate_a536440c5241aeaa7fe2133919d5686d479c7e9166f825ef11ac30eb926
         </div>
     </div> <!-- End header area -->";
         
-        $__internal_1de08220011d1cae6d8055321a3bf7cd3db6b775fa25205f24ea6de073864eb3->leave($__internal_1de08220011d1cae6d8055321a3bf7cd3db6b775fa25205f24ea6de073864eb3_prof);
+        $__internal_224ef483e631449a7f3f9ffb4e2b29c2ff0db4f75b41d7584e275e9fad110f02->leave($__internal_224ef483e631449a7f3f9ffb4e2b29c2ff0db4f75b41d7584e275e9fad110f02_prof);
 
     }
 

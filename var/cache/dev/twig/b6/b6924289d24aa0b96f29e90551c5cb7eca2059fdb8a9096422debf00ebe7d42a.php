@@ -15,8 +15,8 @@ class __TwigTemplate_4d03e490e3500bafc6394225d9a494fb5b851e02125cf7dd43349b1fc20
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_0853c3cc5302913ac37f89bb69e6e60093460d37f4b37070bb6b2b07bdf5a81d = $this->env->getExtension("native_profiler");
-        $__internal_0853c3cc5302913ac37f89bb69e6e60093460d37f4b37070bb6b2b07bdf5a81d->enter($__internal_0853c3cc5302913ac37f89bb69e6e60093460d37f4b37070bb6b2b07bdf5a81d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@CoreTheme/ustora/includes/widget.html.twig"));
+        $__internal_24e80f7eebf4db7dc2ece69537683bbd037fa8702413381a9ef407ccb6730bce = $this->env->getExtension("native_profiler");
+        $__internal_24e80f7eebf4db7dc2ece69537683bbd037fa8702413381a9ef407ccb6730bce->enter($__internal_24e80f7eebf4db7dc2ece69537683bbd037fa8702413381a9ef407ccb6730bce_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@CoreTheme/ustora/includes/widget.html.twig"));
 
         // line 1
         echo "<div class=\"product-widget-area\">
@@ -198,7 +198,7 @@ class __TwigTemplate_4d03e490e3500bafc6394225d9a494fb5b851e02125cf7dd43349b1fc20
         </div>
     </div> <!-- End product widget area -->";
         
-        $__internal_0853c3cc5302913ac37f89bb69e6e60093460d37f4b37070bb6b2b07bdf5a81d->leave($__internal_0853c3cc5302913ac37f89bb69e6e60093460d37f4b37070bb6b2b07bdf5a81d_prof);
+        $__internal_24e80f7eebf4db7dc2ece69537683bbd037fa8702413381a9ef407ccb6730bce->leave($__internal_24e80f7eebf4db7dc2ece69537683bbd037fa8702413381a9ef407ccb6730bce_prof);
 
     }
 

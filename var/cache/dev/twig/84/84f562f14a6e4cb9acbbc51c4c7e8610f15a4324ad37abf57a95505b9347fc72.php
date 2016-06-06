@@ -15,8 +15,8 @@ class __TwigTemplate_99207a99c8e1c26450e5300b3022afecc3ef40cade25d4850f9e994331b
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_cc03b56264c675f4b7c2fdf4bbd57a54a2e1a68afddb60d554435af31cd0cbe7 = $this->env->getExtension("native_profiler");
-        $__internal_cc03b56264c675f4b7c2fdf4bbd57a54a2e1a68afddb60d554435af31cd0cbe7->enter($__internal_cc03b56264c675f4b7c2fdf4bbd57a54a2e1a68afddb60d554435af31cd0cbe7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@CoreTheme/ustora/includes/branding.html.twig"));
+        $__internal_a2f6c3cb99bb1b4eca5cbcfcc9d9471707490090ae4b312b2afe9b87628da43d = $this->env->getExtension("native_profiler");
+        $__internal_a2f6c3cb99bb1b4eca5cbcfcc9d9471707490090ae4b312b2afe9b87628da43d->enter($__internal_a2f6c3cb99bb1b4eca5cbcfcc9d9471707490090ae4b312b2afe9b87628da43d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@CoreTheme/ustora/includes/branding.html.twig"));
 
         // line 1
         echo "<div class=\"site-branding-area\">
@@ -40,7 +40,7 @@ class __TwigTemplate_99207a99c8e1c26450e5300b3022afecc3ef40cade25d4850f9e994331b
         </div>
 </div> <!-- End site branding area -->";
         
-        $__internal_cc03b56264c675f4b7c2fdf4bbd57a54a2e1a68afddb60d554435af31cd0cbe7->leave($__internal_cc03b56264c675f4b7c2fdf4bbd57a54a2e1a68afddb60d554435af31cd0cbe7_prof);
+        $__internal_a2f6c3cb99bb1b4eca5cbcfcc9d9471707490090ae4b312b2afe9b87628da43d->leave($__internal_a2f6c3cb99bb1b4eca5cbcfcc9d9471707490090ae4b312b2afe9b87628da43d_prof);
 
     }
 

@@ -15,8 +15,8 @@ class __TwigTemplate_f46d8a3d28682762a9c55242c52716fba3ad8e876cc6cdb1a58b1d8eb17
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_985a8031f5249625c88f4d585f4b466d081ffae279792661daf3c48bd818b29c = $this->env->getExtension("native_profiler");
-        $__internal_985a8031f5249625c88f4d585f4b466d081ffae279792661daf3c48bd818b29c->enter($__internal_985a8031f5249625c88f4d585f4b466d081ffae279792661daf3c48bd818b29c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CommonCarouselBundle:Default:index.html.twig"));
+        $__internal_0e531e484f7adc500f6c33a3f5c0f29129072088c615518747711150290b24c3 = $this->env->getExtension("native_profiler");
+        $__internal_0e531e484f7adc500f6c33a3f5c0f29129072088c615518747711150290b24c3->enter($__internal_0e531e484f7adc500f6c33a3f5c0f29129072088c615518747711150290b24c3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CommonCarouselBundle:Default:index.html.twig"));
 
         // line 1
         echo "
@@ -60,7 +60,7 @@ class __TwigTemplate_f46d8a3d28682762a9c55242c52716fba3ad8e876cc6cdb1a58b1d8eb17
 \t\t\t<!-- ./Slider -->
     </div> <!-- End slider area -->";
         
-        $__internal_985a8031f5249625c88f4d585f4b466d081ffae279792661daf3c48bd818b29c->leave($__internal_985a8031f5249625c88f4d585f4b466d081ffae279792661daf3c48bd818b29c_prof);
+        $__internal_0e531e484f7adc500f6c33a3f5c0f29129072088c615518747711150290b24c3->leave($__internal_0e531e484f7adc500f6c33a3f5c0f29129072088c615518747711150290b24c3_prof);
 
     }
 

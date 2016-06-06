@@ -21,6 +21,8 @@ class AppKernel extends Kernel {
 			new binhhv\App\BackBundle\AppBackBundle(),
             new binhhv\Common\CarouselBundle\CommonCarouselBundle(),
             new Vich\UploaderBundle\VichUploaderBundle(),
+            new Test\TestBundle\TestBundle(),
+            
         ];
 
 		if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
