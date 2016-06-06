@@ -22,3 +22,11 @@ f6ae8f,127.0.0.1,GET,http://v2.dev/images/slides/b3cef8189d95dc698f7b7f67fb10e70
 c91496,127.0.0.1,GET,http://v2.dev/admin,1464963879,,301
 9ec35b,127.0.0.1,GET,http://v2.dev/admin/,1464963881,,302
 901494,127.0.0.1,GET,http://v2.dev/login,1464963882,,200
+45635d,127.0.0.1,GET,http://v2.dev/getSlides,1465177746,107042,200
+107042,127.0.0.1,GET,http://v2.dev/,1465177746,,200
+c01d8f,127.0.0.1,GET,http://v2.dev/images/slides/b3cef8189d95dc698f7b7f67fb10e70a.jpg,1465177750,b51eba,200
+b51eba,127.0.0.1,GET,http://v2.dev/images/slides/b3cef8189d95dc698f7b7f67fb10e70a.jpg,1465177750,,404
+be7c2f,127.0.0.1,GET,http://v2.dev/admin,1465177751,,301
+b5d1db,127.0.0.1,GET,http://v2.dev/admin/,1465177754,,302
+6fb683,127.0.0.1,GET,http://v2.dev/login,1465177758,,200
+72d595,127.0.0.1,GET,http://v2.dev/login,1465178355,,200
